@@ -5,15 +5,7 @@ cited as the exact computational workflow for the submitted manuscript.
 
 ## 1. Cross-validation definition
 
-The uploaded notebook currently uses `GroupKFold(n_splits=5)` and
-chooses `PLOTID` (or `code`) as the grouping variable. If plot IDs are
-unique, this is not equivalent to the four-region
-leave-one-management-region-out spatial cross-validation described in
-the manuscript (Gilan, Nowshahr, Sari, and Golestan).
-
-Before the final GitHub/Zenodo release, decide which implementation
-generated the reported manuscript results and make the notebook and
-Methods section identical.
+The notebook implements four-fold leave-one-management-region-out spatial cross-validation using the four forest management regions: Gilan, Nowshahr, Sari, and Golestan. In each fold, all plots from one management region are withheld for validation, while plots from the remaining three regions are used for model training. This spatial blocking strategy reduces spatial dependence between training and validation data and provides a more realistic assessment of model transferability to geographically independent forest areas.
 
 ## 2. Outlier threshold
 
