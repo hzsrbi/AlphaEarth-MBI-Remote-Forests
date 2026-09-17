@@ -1,0 +1,2 @@
+earthengine-api geemap geopandas matplotlib numpy openpyxl pandas
+scikit-learn scipy seaborn shapely umap-learn

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived Zenodo release and the associated article."
+title: "AlphaEarth Embeddings and Model-Based Inference for Remote Forest Inventory"
+type: software
+authors:
+  - family-names: Sohrabi
+    given-names: Hormoz
+  - family-names: Vafaei
+    given-names: Sasan
+  - family-names: Samaei
+    given-names: Ramin Mansour
+  - family-names: Immitzer
+    given-names: Markus
+  - family-names: Daryaei
+    given-names: Ardalan
+date-released: 2026-09-17
+repository-code: "ADD_GITHUB_REPOSITORY_URL_BEFORE_RELEASE"
+abstract: >-
+  Python/Jupyter workflow integrating AlphaEarth Foundation embeddings,
+  Random Forest regression, model-based inference, and bootstrap uncertainty
+  assessment for forest structural attributes in remote and inaccessible
+  temperate mountain forests.
+keywords:
+  - AlphaEarth
+  - Earth observation foundation model
+  - model-based inference
+  - forest inventory
+  - Random Forest
+  - remote sensing
+  - Hyrcanian forests

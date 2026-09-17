@@ -1,0 +1,32 @@
+{
+  "title": "AlphaEarth Embeddings and Model-Based Inference for Remote Forest Inventory",
+  "upload_type": "software",
+  "description": "Python/Jupyter workflow accompanying the manuscript \"Bridging Forest Inventory Gaps in Remote and Inaccessible Temperate Mountain Forests Using AlphaEarth Embeddings and Model-Based Inference\". The repository contains code for AlphaEarth embedding extraction, environmental-space exploration, Random Forest modeling, inference for unmeasured forest locations, wall-to-wall prediction, and bootstrap-based uncertainty assessment. Restricted National Forest Inventory data are not distributed.",
+  "creators": [
+    {
+      "name": "Sohrabi, Hormoz"
+    },
+    {
+      "name": "Vafaei, Sasan"
+    },
+    {
+      "name": "Samaei, Ramin Mansour"
+    },
+    {
+      "name": "Immitzer, Markus"
+    },
+    {
+      "name": "Daryaei, Ardalan"
+    }
+  ],
+  "keywords": [
+    "AlphaEarth",
+    "Earth observation foundation model",
+    "model-based inference",
+    "forest inventory",
+    "Random Forest",
+    "remote sensing",
+    "Hyrcanian forests"
+  ],
+  "access_right": "open"
+}

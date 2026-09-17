@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data and generated outputs
+data/
+outputs/
+*.csv
+*.xlsx
+*.xls
+*.gpkg
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.tif
+*.tiff
+
+# Credentials / local configuration
+.env
+*.json.key
+service-account*.json
