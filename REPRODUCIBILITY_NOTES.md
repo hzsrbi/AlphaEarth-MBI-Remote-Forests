@@ -1,8 +1,5 @@
 # Reproducibility notes
 
-This file records items that should be checked before the repository is
-cited as the exact computational workflow for the submitted manuscript.
-
 ## 1. Cross-validation definition
 
 The notebook implements four-fold leave-one-management-region-out spatial cross-validation using the four forest management regions: Gilan, Nowshahr, Sari, and Golestan. In each fold, all plots from one management region are withheld for validation, while plots from the remaining three regions are used for model training. This spatial blocking strategy reduces spatial dependence between training and validation data and provides a more realistic assessment of model transferability to geographically independent forest areas.
